@@ -11,3 +11,76 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.map-container {
+  height: 500px;
+  width: 500px;
+}
+
+.sidebar {
+  background-color: rgba(35, 55, 75, 0.9);
+  color: #fff;
+  padding: 6px 12px;
+  font-family: monospace;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  border-radius: 4px;
+  }
+
+  .marker {
+    background-image: url('/src/icons8-rv-64.png');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .marker-site-unavailable {
+    background-image: url('/src/icons8-rv-64-occupied.png');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .mapboxgl-popup {
+    padding-bottom: 5px;
+  }
+
+  .mapboxgl-popup-content {
+    font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    width: 180px;
+  }
+  .mapboxgl-popup-content h3 {
+    color: black;
+    margin: 0;
+    padding: 5px;
+    border-radius: 3px 3px 0 0;
+    font-weight: 700;
+    margin-top: -5px;
+  }
+
+  .mapboxgl-popup-content h4 {
+    color: black;
+    margin: 0;
+    padding: 5px;
+    font-weight: 400;
+  }
+
+  .mapboxgl-popup-content div {
+    padding: 10px;
+  }
+
+  .mapboxgl-popup-anchor-top > .mapboxgl-popup-content {
+    margin-top: 15px;
+  }
+
+  .mapboxgl-popup-anchor-top > .mapboxgl-popup-tip {
+    border-bottom-color: #91c949;
+  }

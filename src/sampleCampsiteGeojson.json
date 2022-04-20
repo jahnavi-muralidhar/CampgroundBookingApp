@@ -1,0 +1,126 @@
+{
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Campsite 1",
+                "description": "Campsite in Ashland State Park",
+                "Occupied" : true
+            },
+            "geometry": {
+                "coordinates": [
+                    -71.468373,
+                    42.237352
+                ],
+                "type": "Point"
+            },
+            "id": "65ffdd0925e133d8626eb00b04d16a78"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Campsite 2",
+                "description": "Campsite in Ashland State Park"
+            },
+            "geometry": {
+                "coordinates": [
+                    -71.468516,
+                    42.239621
+                ],
+                "type": "Point"
+            },
+            "id": "6911f7e05b229a63a4388a3dae347623"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Campsite 3",
+                "description": "Campsite in Ashland State Park"
+            },
+            "geometry": {
+                "coordinates": [
+                    -71.464918,
+                    42.241879
+                ],
+                "type": "Point"
+            },
+            "id": "6eb184a0e786b93cc6cee307fc89c931"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Campsite 4",
+                "description": "Campsite in Ashland State Park"
+            },
+            "geometry": {
+                "coordinates": [
+                    -71.465897,
+                    42.244619
+                ],
+                "type": "Point"
+            },
+            "id": "7461188d5bed900b33271ea0bc537689"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Campsite 5",
+                "description": "Campsite in Ashland State Park"
+            },
+            "geometry": {
+                "coordinates": [
+                    -71.466395,
+                    42.24247
+                ],
+                "type": "Point"
+            },
+            "id": "85224e478c020761b9652467b0d3eda2"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Campsite 6",
+                "description": "Campsite in Ashland State Park"
+            },
+            "geometry": {
+                "coordinates": [
+                    -71.468266,
+                    42.240755
+                ],
+                "type": "Point"
+            },
+            "id": "9eebb3fe461d0419b3e502169bd32e99"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Campsite 7",
+                "description": "Campsite in Ashland State Park"
+            },
+            "geometry": {
+                "coordinates": [
+                    -71.466787,
+                    42.241467
+                ],
+                "type": "Point"
+            },
+            "id": "b494b2417f271e3b4ff1e3d4248565ac"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "title": "Campsite 8",
+                "description": "Campsite in Ashland State Park"
+            },
+            "geometry": {
+                "coordinates": [
+                    -71.465629,
+                    42.245503
+                ],
+                "type": "Point"
+            },
+            "id": "f8c2d32336b54545c1173a7e7583a3ac"
+        }
+    ],
+    "type": "FeatureCollection"
+}
